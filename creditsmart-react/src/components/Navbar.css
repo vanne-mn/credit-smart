@@ -30,3 +30,12 @@
 .nav-links a:hover {
   color: #7b4aa1;
 }
+
+/* Mejora visual: transición suave en los enlaces del navbar */
+.nav-links a {
+  transition: color 0.18s ease, transform 0.12s ease;
+}
+
+.nav-links a:hover {
+  transform: translateY(-2px);
+}
