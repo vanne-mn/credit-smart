@@ -1,51 +1,57 @@
 # 💳 CreditSmart – Aplicación Web Dinámica con React
 
-**Estudiante:** Vannesa Moncada  Ramírez
-**Materia:** Ingeniería Web I  
-**Actividad:**  Desarrollo de Aplicación Web Dinámica con React - CreditSmart
-**Proyecto:** Desarrollo de Aplicación Web Dinámica con React
+👩‍💻 Estudiante: Vannesa Moncada Ramírez
+📘 Materia: Ingeniería Web I
+🧩 Actividad: Desarrollo de Aplicación Web Dinámica con React – CreditSmart
+🗂 Proyecto: Aplicación Web React + Vite
+💡 Descripción General del Proyecto
 
----
+CreditSmart es una aplicación web dinámica desarrollada con React + Vite que permite a los usuarios:
 
-## 📌 Actualización: Se agregó descripción detallada del proyecto.
+Ver un catálogo completo de créditos disponibles.
 
-**CreditSmart** es una aplicación web interactiva desarrollada con **React + Vite** que permite:
+Buscar, ordenar y filtrar créditos por monto y tasa.
 
-- Consultar un catálogo de créditos disponible.
-- Buscar, filtrar y comparar productos crediticios.
-- Simular cuotas mensuales según monto y plazo.
-- Llenar un formulario de solicitud totalmente funcional.
-- Navegar entre páginas mediante **React Router DOM**.
-- Administrar estado, propiedades y datos usando conceptos clave de React.
+Simular cuotas mensuales según monto, tasa y plazo.
 
-El proyecto aplica los principios de componentes reutilizables, hooks, manejo de arrays, modularidad y buenas prácticas de desarrollo web.
+Completar un formulario funcional para solicitar un crédito.
 
----
+Visualizar un resumen con validaciones antes de confirmar.
 
-## 🚀 Tecnologías Utilizadas
+Enviar la solicitud (almacenada temporalmente en memoria).
 
-| Tecnología | Uso |
-|-----------|-----|
-| **React** | Creación de componentes, hooks, render dinámico |
-| **Vite** | Entorno de desarrollo rápido y moderno |
-| **React Router DOM v6** | Navegación entre páginas |
-| **JavaScript ES6+** | Lógica y procesamiento de datos |
-| **HTML5 JSX** | Estructura de componentes |
-| **CSS3 modular** | Estilos por página y componentes |
+Navegar entre páginas sin recargar gracias a React Router DOM.
 
----
+El proyecto aplica principios de componentización, manejo de estado, renderizado condicional, hooks, validaciones, modularidad y buenas prácticas de desarrollo web.
 
-## 📁 Estructura del Proyecto
+🚀 Tecnologías Utilizadas
+Tecnología	Descripción
+React	Componentes, hooks y render dinámico
+Vite	Entorno de desarrollo rápido
+React Router DOM v6	Navegación SPA
+JavaScript ES6+	Lógica y manejo de datos
+HTML5 + JSX	Estructura visual del proyecto
+CSS3 modular	Estilos por componentes
+📁 Estructura del Proyecto
+CreditSmart/
+│── public/
+│── src/
+│   ├── assets/
+│   │   └── imágenes de créditos
+│   ├── components/
+│   │   └── Navbar.jsx
+│   ├── data/
+│   │   └── creditsData.js
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Simulador.jsx
+│   │   └── Solicitar.jsx
+│   ├── App.jsx
+│   └── main.jsx
+│
+└── README.md
 
-
----
-
-## 🔗 Navegación entre páginas (React Router)
-
-El proyecto utiliza **React Router DOM v6** para la navegación SPA.
-
-### 📄 App.jsx
-```jsx
+🔗 Navegación entre páginas (React Router DOM)
 import { Outlet } from "react-router-dom";
 import Navbar from "./components/Navbar";
 
@@ -62,4 +68,52 @@ function App() {
 
 export default App;
 
-> **Nota:** Este repositorio contiene la versión para la actividad S30 - EA2 de Ingeniería Web I. Fecha de última actualización: 2025.
+📃 Páginas del Proyecto
+🏠 Home.jsx
+
+Muestra tarjetas de productos crediticios.
+
+Incluye imágenes y descripciones.
+
+Navegación directa a simulación o solicitud.
+
+📊 Simulador.jsx
+
+Incluye:
+
+Búsqueda, filtros y ordenamiento.
+
+Cálculo dinámico de cuota mensual.
+
+Renderización de tarjetas de créditos filtrados.
+
+📝 Solicitar.jsx
+
+Funcionalidades:
+
+Formulario con validaciones en tiempo real.
+
+Cálculo automático de cuota mensual.
+
+Vista de resumen antes de enviar.
+
+Mensaje de éxito al finalizar.
+
+Lista en memoria de solicitudes realizadas.
+
+▶️ Instalación y Ejecución
+1️⃣ Clonar repositorio
+git clone https://github.com/TU_USUARIO/CreditSmart.git
+
+2️⃣ Instalar dependencias
+npm install
+
+3️⃣ Ejecutar el proyecto
+npm run dev
+
+http://localhost:5173/
+
+Proyecto desarrollado por:
+Vannesa Moncada Ramírez
+Estudiante de Ingeniería Web I – IUDigital
+Año: 2025
