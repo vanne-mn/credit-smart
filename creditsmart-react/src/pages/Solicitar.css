@@ -1,0 +1,18 @@
+/* src/pages/Solicitar.css */
+.solicitar-container { max-width: 900px; margin: 24px auto; padding: 16px; }
+.solicitar-container h1 { color: #7b4aa1; }
+.sol-form { background: #f7f2fb; padding: 18px; border-radius: 10px; display: grid; gap: 10px; }
+.sol-form label { display: flex; flex-direction: column; font-weight: 600; color: #4a2f6b; }
+.sol-form input, .sol-form select { padding: 10px; border-radius: 8px; border: 1px solid #d9c6ea; background:#fff; }
+.preview-cuota { margin-top: 6px; color: #333; }
+.form-actions { display:flex; gap: 10px; margin-top: 8px; }
+.btn-primary { background: #7b4aa1; color: white; border: none; padding: 10px 14px; border-radius: 8px; cursor:pointer; }
+.btn-secondary { background: transparent; border: 1px solid #c8a4e6; padding: 10px 12px; border-radius: 8px; cursor:pointer; }
+.error { color: #b00020; font-size: 0.9rem; }
+.resumen { margin-top: 16px; background: white; padding: 12px; border-radius: 10px; box-shadow: 0 6px 18px rgba(0,0,0,0.06); }
+.resumen-actions { display:flex; gap:8px; margin-top: 8px; }
+.mensaje-exito { margin-top: 12px; padding: 10px; background: #e6f9ef; color: #05612b; border-radius: 8px; }
+.solicitudes-list { margin-top: 14px; background: #fff; padding: 10px; border-radius:8px; }
+@media (max-width:600px) {
+  .form-actions { flex-direction: column; }
+}

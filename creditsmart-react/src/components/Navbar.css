@@ -1,0 +1,32 @@
+.navbar {
+  background: #e7dbf7; /* lavanda pastel suave */
+  padding: 1rem 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #7b4aa1; /* lavanda más oscuro */
+}
+
+.nav-links a {
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: #4a4a4a;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #7b4aa1;
+}

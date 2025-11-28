@@ -1,0 +1,134 @@
+.simulador-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.sim-title {
+  font-size: 2rem;
+  color: #7b4aa1;
+  margin-bottom: 0.5rem;
+}
+
+.sim-subtitle {
+  color: #444;
+  margin-bottom: 2rem;
+}
+
+.sim-form {
+  background: #f2edf7;
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 650px;
+  margin: auto;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  display: grid;
+  gap: 1.5rem;
+}
+
+.sim-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  color: #4a2f6b;
+}
+
+.sim-form input {
+  padding: 0.7rem;
+  margin-top: 0.4rem;
+  border: 1px solid #c8a4e6;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.sim-btn {
+  background: #7b4aa1;
+  color: white;
+  padding: 0.8rem 1.6rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.sim-btn:hover {
+  background: #68388f;
+}
+
+/* Resultado */
+.resultado {
+  background: white;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+
+.cuota {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #7b4aa1;
+}
+/* Contenedores de filtros */
+.sim-controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.sim-controls input,
+.sim-controls select {
+  padding: 0.7rem;
+  border-radius: 8px;
+  border: 1px solid #c8a4e6;
+  font-size: 1rem;
+  background: #f8f3fc;
+}
+
+/* Tarjetas de resultados */
+.sim-resultados {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.sim-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.sim-card:hover {
+  transform: translateY(-5px);
+}
+
+.sim-img {
+  width: 180px;       /* Reduce el ancho */
+  height: 120px;      /* Controla el alto */
+  object-fit: cover;  /* Mantiene proporciones y recorta bonito */
+  border-radius: 10px;
+  margin: auto;       /* Centra la imagen */
+  display: block;
+}
+
+.sim-desc {
+  color: #555;
+  margin-bottom: 0.7rem;
+}
+
+.no-resultados {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #7b4aa1;
+  font-weight: bold;
+}
