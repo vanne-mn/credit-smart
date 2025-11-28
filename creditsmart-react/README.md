@@ -1,16 +1,65 @@
-# React + Vite
+# 💳 CreditSmart – Aplicación Web Dinámica con React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Estudiante:** Vannesa Moncada  Ramírez
+**Materia:** Ingeniería Web I  
+**Actividad:**  Desarrollo de Aplicación Web Dinámica con React - CreditSmart
+**Proyecto:** Desarrollo de Aplicación Web Dinámica con React
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Actualización: Se agregó descripción detallada del proyecto.
 
-## React Compiler
+**CreditSmart** es una aplicación web interactiva desarrollada con **React + Vite** que permite:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Consultar un catálogo de créditos disponible.
+- Buscar, filtrar y comparar productos crediticios.
+- Simular cuotas mensuales según monto y plazo.
+- Llenar un formulario de solicitud totalmente funcional.
+- Navegar entre páginas mediante **React Router DOM**.
+- Administrar estado, propiedades y datos usando conceptos clave de React.
 
-## Expanding the ESLint configuration
+El proyecto aplica los principios de componentes reutilizables, hooks, manejo de arrays, modularidad y buenas prácticas de desarrollo web.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Tecnologías Utilizadas
+
+| Tecnología | Uso |
+|-----------|-----|
+| **React** | Creación de componentes, hooks, render dinámico |
+| **Vite** | Entorno de desarrollo rápido y moderno |
+| **React Router DOM v6** | Navegación entre páginas |
+| **JavaScript ES6+** | Lógica y procesamiento de datos |
+| **HTML5 JSX** | Estructura de componentes |
+| **CSS3 modular** | Estilos por página y componentes |
+
+---
+
+## 📁 Estructura del Proyecto
+
+
+---
+
+## 🔗 Navegación entre páginas (React Router)
+
+El proyecto utiliza **React Router DOM v6** para la navegación SPA.
+
+### 📄 App.jsx
+```jsx
+import { Outlet } from "react-router-dom";
+import Navbar from "./components/Navbar";
+
+function App() {
+  return (
+    <>
+      <Navbar />
+      <main>
+        <Outlet />
+      </main>
+    </>
+  );
+}
+
+export default App;
+
+> **Nota:** Este repositorio contiene la versión para la actividad S30 - EA2 de Ingeniería Web I. Fecha de última actualización: 2025.
