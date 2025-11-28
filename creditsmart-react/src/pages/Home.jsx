@@ -76,6 +76,9 @@ export default function Home() {
       </p>
 
       {/* ===== TARJETAS ===== */}
+      
+      {/* Tarjetas renderizadas dinámicamente desde el arreglo 'cards' */}
+
       <div className="cards-container">
         {cards.map((credit, index) => (
           <div
