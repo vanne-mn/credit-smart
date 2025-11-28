@@ -9,7 +9,8 @@ function Navbar() {
 
 { /* Navegación principal: enlaces a Home, Simulador y Solicitar Crédito */ }
 
-        <nav className="nav-links">
+     <nav className="nav-links" role="navigation" aria-label="Navegación principal">
+
           <Link to="/">Inicio</Link>
           <Link to="/simulador">Simulador</Link>
           <Link to="/solicitar">Solicitar Crédito</Link>
