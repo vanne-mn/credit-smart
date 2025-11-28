@@ -7,6 +7,8 @@ function Navbar() {
       <div className="navbar-container">
         <h1 className="logo">CreditSmart</h1>
 
+{ /* Navegación principal: enlaces a Home, Simulador y Solicitar Crédito */ }
+
         <nav className="nav-links">
           <Link to="/">Inicio</Link>
           <Link to="/simulador">Simulador</Link>
