@@ -103,7 +103,7 @@ Lista en memoria de solicitudes realizadas.
 
 ▶️ Instalación y Ejecución
 1️⃣ Clonar repositorio
-git clone https://github.com/TU_USUARIO/CreditSmart.git
+git clonehttps://github.com/vanne-mn/credit-smart/tree/main/creditsmart-react
 
 2️⃣ Instalar dependencias
 npm install
